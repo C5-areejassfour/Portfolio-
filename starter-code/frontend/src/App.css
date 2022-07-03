@@ -1,11 +1,17 @@
 *{
   margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  overflow: hidden;
 }
 .App {
   text-align: center;
   height: 650px;
   width: 100%;
   background-color: rgb(229, 245, 255);
+
 
 }
 .nav1{

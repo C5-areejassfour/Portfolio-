@@ -4,10 +4,13 @@ import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Card from "react-bootstrap/Card";
+import Alert from "react-bootstrap/Alert";
+
 
 const Skills = () => {
   return (
     <div>
+      
       <Container>
         <Row>
           <Col>
@@ -15,6 +18,7 @@ const Skills = () => {
               <Card.Header className="pa12">Skills</Card.Header>
               <Card.Body>
                 <blockquote className="blockquote mb-0">
+                  
                   <p className="ps1">JavaScript </p>
                   <p className="ps2">Data Base (Mongo DB & MySQL)</p>
                   <p className="ps3">Back End Coding (Node.js , Express )</p>
@@ -29,6 +33,7 @@ const Skills = () => {
               </Card.Body>
             </Card>
           </Col>
+          
 
           <Col className="col1">
             <div className="d1">
@@ -70,6 +75,7 @@ const Skills = () => {
           </Col>
         </Row>
       </Container>
+ 
     </div>
   );
 };

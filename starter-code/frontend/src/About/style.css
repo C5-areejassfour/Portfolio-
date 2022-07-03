@@ -1,3 +1,6 @@
+
+
+
 @keyframes pa1 {
     0% {
       /* transform: translateX(10px); */
@@ -28,10 +31,35 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    overflow-y: hidden;
+    
 
 }
 .main_about{
     width: 50%;
     margin: 40px;
     border: 2px ridge;
+}
+.image{
+  width: 100vw;
+  height: 97vh;
+  background-color: rgba(0, 0, 0, 0.559);
+  position: absolute;
+  overflow-y: hidden;
+
+}
+.cr{
+  width: 50px;
+  height: 50px;
+  background-color: blue;
+  position: relative;
+  top: 100px;
+  left: 100px;
+}
+.pa12{
+  animation: pa1 2s ease-in;
+
+  font-family: monospace;
+  color: rgb(125, 187, 249);
+  font-size: 25px;
 }

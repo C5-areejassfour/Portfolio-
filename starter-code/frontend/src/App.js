@@ -15,8 +15,9 @@ import Contact from "./Contact";
 
 function App() {
   return <div className="App">
-  
+ 
    <Navbar1/>
+ 
   
    <Routes>
         <Route path="/home" element={<Home/>} />

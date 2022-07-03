@@ -11,9 +11,11 @@ const Navbar1=()=>{
 
 return(
     <div className="nav1">
-  <Navbar bg="dark" variant="dark"  >
+  <Navbar bg="dark" variant="dark"  className="navv">
     <Container>
     <Navbar.Brand href="#home" ></Navbar.Brand>
+    
+    <div className="logo_main"><img  className="logo" src={image}/></div>
     <Nav className="me-auto">
       <Nav.Link href="home" >Home</Nav.Link>
       <Nav.Link href="about" >About</Nav.Link>
